@@ -567,6 +567,10 @@ footer span a:hover{
         height: 350px;
         width: 350px;
     }
+    .skills .skills-content .left img {
+	height: 300px;
+	width: 300px;
+    }
 }
 
 @media (max-width:991px){
