@@ -356,63 +356,42 @@ section .title::after{
     color: crimson;
     background: none;
 }
-.skills .skills-content .right .bars{
+.skills .skills-content .right .lang-tools{
     margin-bottom: 15px;
+}
+.skills .skills-content .right .lang-tools h3 {
+    margin-bottom: 10px;
+    text-transform: uppercase;
 }
 .skills .skills-content .right .info{
     display: flex;
-    margin-bottom: 5px;
+    margin-bottom: 50px;
     align-items: center;
-    justify-content: space-between;
+    flex-wrap: wrap;
+
 }
-.skills .skills-content .right span{
-    font-weight: 500;
-    font-size: 18px;
+
+.skills .skills-content .right .info img {
+    padding: 5px;
 }
-.skills .skills-content .right .line{
-    height: 3px;
-    width: 100%;
-    background: lightgrey;
-    position: relative;
+.skills .skills-content .right .info span {
+    padding-right: 10px;
+    margin: 0;
 }
-.skills .skills-content .right .line::before{
-    content: "";
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    left: 0;
-    top: 0;
-    background: crimson;
+
+.skills .skills-content .right .info2{
+    display: flex;
+    margin-bottom: -120px;
+    align-items: center;
+    flex-wrap: wrap;
+
 }
-.skills-content .right .python::before{
-    width: 23%;
+.skills .skills-content .right .info2 img {
+    padding: 5px;
 }
-.skills-content .right .html::before{
-    width: 20%;
-}
-.skills-content .right .css::before{
-    width: 20%;
-}
-.skills-content .right .js::before{
-    width: 20%;
-}
-.skills-content .right .mysql::before{
-    width: 21%;
-}
-.skills-content .right .filmora::before{
-    width: 85%;
-}
-.skills-content .right .blogger::before{
-    width: 95%;
-}
-.skills-content .right .wordpress::before{
-    width: 65%;
-}
-.skills-content .right .photoshop::before{
-    width: 80%;
-}
-.skills-content .right .effects::before{
-    width: 80%;
+.skills .skills-content .right .info2 span {
+    padding-right: 10px;
+    margin: 0;
 }
 
 /* contact section styling */
