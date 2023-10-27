@@ -218,7 +218,7 @@ section .title::after{
 }
 .about .about-content .right p{
     color: white;
-    text-align: justify;
+    text-align: left;
 }
 .about .about-content .right a{
     display: inline-block;
