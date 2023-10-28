@@ -513,13 +513,13 @@ h2.shows {
 .contact .contact-content {
     opacity: 0;
     filter: blur(3px);
-    transform: translateY(50%);
+    transform: translateX(100%);
     transition: opacity 1s ease, filter 0s ease, transform 1s ease; 
 }
 .contact .contact-content.shows {
     opacity: 1;
     filter: blur(0px);
-    transform: translateY(0);
+    transform: translateX(0);
 }
 
 .contact .contact-content .column{
