@@ -1,5 +1,5 @@
 asgiref==3.7.2
-Django==4.2.1
+Django==4.2.6
 django-environ==0.11.2
 python-http-client==3.3.7
 sendgrid==6.10.0
