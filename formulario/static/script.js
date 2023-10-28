@@ -34,12 +34,7 @@ $(document).ready(function () {
   });
 });
 
-document.addEventListener("DOMContentLoaded", function () {
-  const container = document.querySelector(".container");
-  container.classList.add("show");
-});
-
-// Observador de interseção para as animações
+// Observador de para as animações
 const myObserver = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
       if (entry.isIntersecting) {
