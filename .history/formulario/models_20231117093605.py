@@ -10,3 +10,8 @@ class Contato(models.Model):
         return self.nome
 
 
+class SocialMedia(models.Model):
+    def profile():
+        name = "Augusto Domingos"
+        age = "21"
+        def

@@ -11,7 +11,7 @@ def enviar_mensagem(request):
         mensagem = request.POST['mensagem']
 
         # Configuração do e-mail
-        remetente = email  # Usando o e-mail do remetente como o remetente do e-mail
+        remetente = email 
         destinatario_host = 'augustodomingosvasco@gmail.com' 
 
         email_remessa_host = EmailMessage(
@@ -22,7 +22,7 @@ def enviar_mensagem(request):
             reply_to=[remetente]
         )
 
-        # Envio do e-mail para mim
+      
         email_remessa_host.send()
 
         return render(request, 'mensagem_enviada.html')

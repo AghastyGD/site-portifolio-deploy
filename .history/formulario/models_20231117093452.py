@@ -10,3 +10,6 @@ class Contato(models.Model):
         return self.nome
 
 
+class SocialMedia(models.Model):
+    def profile_name():
+        

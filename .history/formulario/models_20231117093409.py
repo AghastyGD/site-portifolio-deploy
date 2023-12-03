@@ -10,3 +10,4 @@ class Contato(models.Model):
         return self.nome
 
 
+class
