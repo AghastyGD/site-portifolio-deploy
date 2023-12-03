@@ -20,7 +20,7 @@ $(document).ready(function () {
 
   // Animação de digitação
   var typed = new Typed(".typing", {
-      strings: ["Desenvolvedor Python", "Editor", "Blogueiro", "Designer Gráfico", "Desenvolvedor Web", "Youtuber", "Freelancer"],
+      strings: ['FullStack Web Developer', 'Python/Django Developer', 'Blogueiro', 'Editor de Vídeo', 'Back-End Developer', 'Front-End Developerr'],
       typeSpeed: 100,
       backSpeed: 60,
       loop: true
